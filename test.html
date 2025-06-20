@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이터널 리턴</title>
+    <style>
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   header{
+        background-color:black;
+    }
+.back{
+    background-image: url(b.webp);
+    background-size: cover;         
+    background-position: center;    
+    background-repeat: no-repeat;   
+    height: 100vh;                  
+    margin: 0px;    
+}
+header img er{
+    float:left;
+}
+    ul{
+        list-style: none;
+        text-align:center;
+        border-top: 0.7px solid white;
+        border-bottom: 0.7px solid white;
+        padding: 5px 0;
+    }
+   header ul li{
+        display: inline;
+        letter-spacing: 10px;
+    }
+   header ul li a {
+       text-decoration: none;
+       color:white;
+       padding: 0 40px;
+    }
+    header ul li a:hover{
+        color:yellow;
+    }
+    h1{
+        text-align: center;
+        letter-spacing: 5px;
+        padding:0px;
+        color:white;
+           }
+nav{
+    float: left;
+    padding: 50px 70px 10px 50px;
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    background-color:yellow;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+h2 a:hover{
+    background-color:rgb(173, 173, 59);
+}
+h3{
+    color:white;
+}
+nav ul li a{
+ text-decoration: none;
+       color:white;
+       padding: 0px;
+}
+nav ul li a:hover{
+    background:white;
+    color:black;
+}
+div{
+    float: right;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <img src="logo.png" width="150" height="60"> 
+
+    <ul>
+        <li><a href="">게임</a></li>
+        <li><a href="">새소식</a></li>
+        <li><a href="">이벤트</a></li>
+        <li><a href="">Esports</a></li>
+    </ul>
+</header>
+  <div class="back"><h1>루미아섬에 오신 분들 환영합니다!</h1> <br><br>
+   <h2> <a href="">지금 플레이하기</a></h2><br>
+<nav>
+    <h3>실험체</h3>
+    <ul>
+        <li><a href="rida.html" target="iframe1">리다이린</a></li> <br>
+        <li><a href="hw.html" target="iframe1">현우</a></li> <br>
+        <li><a href="yk.html" target="iframe1">유키</a></li> <br>
+        <li><a href="hj.html" target="iframe1">혜진</a></li>
+    </ul>
+</nav>
+<section>
+    <iframe name="iframe1" src="main.html"  style= "width:100%; max-width:1080px; height:710px; border:none;"> </iframe>
+
+
+</section>
+  <audio id="bg-audio" src="heal.mp3" autoplay controls loop><script>
+  const audio = document.getElementById("bg-audio");
+  audio.volume = 0.3;
+</script>
+<div>이모티콘 출시!</div>
+
+</div>
+</body>
+</html>
